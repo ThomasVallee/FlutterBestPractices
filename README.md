@@ -1,6 +1,6 @@
 # Flutter Best Practices & Must Do's
 
-When working on an internal flutter project, please refer to this document. Failure to follow some of the instructions in this file can lead to a rejected PR (pull request) / a refractor request.
+When working on an internal flutter project, please refer to this document. Failure to follow some of the instructions in this file can lead to a rejected PR (pull request) / a refactor request.
 
 *Created & Maintained by Thomas Vallee & Micah Meadows*
 
