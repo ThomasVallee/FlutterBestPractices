@@ -30,15 +30,15 @@ Depending on the business logic needed, creating a new cubit may require up to 4
 
 ## Cubit & State classes
 Initializing Cubit class
-> `import /resources/repositories/example_repository.dart` 
-> `part "example_state.dart"` 
-> `class ExampleCubit extends Cubit<ExampleState>{}`
+> `import /resources/repositories/example_repository.dart`   
+> `part "example_state.dart"`   
+> `class ExampleCubit extends Cubit<ExampleState>{}`  
 
  Initializing State class 
-> `part "example_cubit.dart"` 
-> `@immutable`
-> `abstract class ExampleState {}`
-> `class ExampleInital extends ExampleState {}`
+> `part "example_cubit.dart"`   
+> `@immutable`  
+> `abstract class ExampleState {}`  
+> `class ExampleInital extends ExampleState {}`  
 - Cubits must take their respective repository as an argument
 - Do not implement View logic inside cubit classes
 - Methods should be placed in the respective repository class & called from cubit
